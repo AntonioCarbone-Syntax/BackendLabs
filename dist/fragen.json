@@ -1,0 +1,1432 @@
+[
+  {
+    "id": 1,
+    "frage": "Welche Hauptaufgabe hat ein Web-Backend?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Styling von HTML-Elementen", "correct": false },
+      { "id": 2, "frage": "Zentrales Verwalten von Daten, Logik und Sicherheit", "correct": true },
+      { "id": 3, "frage": "Direkte Interaktion mit dem DOM", "correct": false },
+      { "id": 4, "frage": "Darstellung der Benutzeroberfläche im Browser", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "frage": "Was beschreibt das Request-Response-Modell?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Der Client sendet eine Anfrage und erhält eine Antwort vom Server", "correct": true },
+      { "id": 2, "frage": "Der Server startet Anfragen an den Client", "correct": false },
+      { "id": 3, "frage": "Client und Server tauschen dauerhaft Daten aus", "correct": false },
+      { "id": 4, "frage": "Der Browser speichert Daten direkt in der Datenbank", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "frage": "Warum wird Express oft für Einsteiger empfohlen?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Weil es automatisch komplette APIs generiert", "correct": false },
+      { "id": 2, "frage": "Weil es sehr viele feste Vorgaben macht", "correct": false },
+      { "id": 3, "frage": "Weil es minimalistisch ist und Web-Grundlagen klar vermittelt", "correct": true },
+      { "id": 4, "frage": "Weil es nur mit TypeScript funktioniert", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "frage": "Aus was besteht ein Express-Endpunkt immer?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Middleware und Controller", "correct": false },
+      { "id": 2, "frage": "Pfad und Handler-Funktion", "correct": true },
+      { "id": 3, "frage": "Datenbank, Model und View", "correct": false },
+      { "id": 4, "frage": "Port und Statuscode", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "frage": "Wofür wird das req-Objekt in Express verwendet?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Um Statuscodes zu definieren", "correct": false },
+      { "id": 2, "frage": "Um die Antwort an den Client zu senden", "correct": false },
+      { "id": 3, "frage": "Um den Server zu starten", "correct": false },
+      { "id": 4, "frage": "Um Informationen aus der Anfrage zu lesen (z. B. Params oder Query)", "correct": true }
+    ]
+  },
+  {
+    "id": 6,
+    "frage": "Welche Aufgabe eines Backends beschreibt der Punkt „Datenhoheit“?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Das Bereitstellen von Schnittstellen für das Frontend", "correct": false },
+      { "id": 2, "frage": "Das zentrale Speichern und Verwalten von Informationen in einer Datenbank", "correct": true },
+      { "id": 3, "frage": "Das Ausliefern von HTML und CSS an den Browser", "correct": false },
+      { "id": 4, "frage": "Das Prüfen, ob ein Nutzer eine Aktion ausführen darf", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "frage": "Wofür wird Postman im Zusammenhang mit dem Backend eingesetzt?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Um die Interaktion mit dem Backend zu vereinfachen, z. B. Requests mit Query-Parametern zu senden", "correct": true },
+      { "id": 2, "frage": "Zum Kompilieren von TypeScript-Code", "correct": false },
+      { "id": 3, "frage": "Um den Server dauerhaft im Internet zu hosten", "correct": false },
+      { "id": 4, "frage": "Um Express-Middleware zu installieren", "correct": false }
+    ]
+  },
+  {
+    "id": 8,
+    "frage": "Welches Argument spricht dafür, Express als Einstiegsframework zu nutzen?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Es bringt eine eigene Datenbank mit", "correct": false },
+      { "id": 2, "frage": "Es benötigt kein Node.js im Hintergrund", "correct": false },
+      { "id": 3, "frage": "Es nimmt durch strenge Vorgaben alle Architekturentscheidungen ab", "correct": false },
+      { "id": 4, "frage": "Es ist minimalistisch, hat ein großes Ökosystem und lenkt den Fokus auf Web-Grundlagen statt Framework-Magie", "correct": true }
+    ]
+  },
+  {
+    "id": 9,
+    "frage": "Was bewirkt app.listen(PORT, ...) in einem Express-Server?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Es beansprucht den gewählten PORT, hört auf eingehende Anfragen und weist sie den Handlern der Endpunkte zu", "correct": true },
+      { "id": 2, "frage": "Es registriert einen neuen Endpunkt unter dem Pfad PORT", "correct": false },
+      { "id": 3, "frage": "Es installiert die benötigten npm-Pakete", "correct": false },
+      { "id": 4, "frage": "Es sendet eine Response an den Client", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "frage": "Welcher Statuscode wird verwendet, wenn eine neue Ressource gemäß der Anfrage erstellt wurde?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "200 OK", "correct": false },
+      { "id": 2, "frage": "204 No Content", "correct": false },
+      { "id": 3, "frage": "400 Bad Request", "correct": false },
+      { "id": 4, "frage": "201 Created", "correct": true }
+    ]
+  },
+  {
+    "id": 11,
+    "frage": "Was beschreibt Authentifizierung?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Die Prüfung, welche Aktionen ein Nutzer ausführen darf.", "correct": false },
+      { "id": 2, "frage": "Das Speichern von Nutzerdaten in der Datenbank.", "correct": false },
+      { "id": 3, "frage": "Den Nachweis der Identität eines Nutzers.", "correct": true },
+      { "id": 4, "frage": "Die Verschlüsselung von Passwörtern.", "correct": false }
+    ]
+  },
+  {
+    "id": 12,
+    "frage": "Welche Frage beantwortet Authentifizierung?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "„Was darfst du tun?“", "correct": false },
+      { "id": 2, "frage": "„Welche Rolle hast du?“", "correct": false },
+      { "id": 3, "frage": "„Wer bist du?“", "correct": true },
+      { "id": 4, "frage": "„Welche Daten gehören dir?“", "correct": false }
+    ]
+  },
+  {
+    "id": 13,
+    "frage": "Welche Eigenschaft ist typisch für Session-Cookie-basierte Authentifizierung?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Sie ist besonders anfällig für XSS.", "correct": false },
+      { "id": 2, "frage": "Sie ist stateless und vollständig clientseitig.", "correct": false },
+      { "id": 3, "frage": "Sie kann kaum deaktiviert werden.", "correct": false },
+      { "id": 4, "frage": "Sie ist stateful und der Server kann Sessions beenden.", "correct": true }
+    ]
+  },
+  {
+    "id": 14,
+    "frage": "Wozu dient eine Middleware im Auth-Kontext?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Sie speichert Passwörter im Klartext.", "correct": false },
+      { "id": 2, "frage": "Sie kapselt wiederverwendbare Auth-Logik für mehrere Endpunkte.", "correct": true },
+      { "id": 3, "frage": "Sie ersetzt die Datenbank.", "correct": false },
+      { "id": 4, "frage": "Sie rendert Benutzeroberflächen.", "correct": false }
+    ]
+  },
+  {
+    "id": 15,
+    "frage": "Was beschreibt Autorisierung korrekt?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Das Erstellen einer Session-ID.", "correct": false },
+      { "id": 2, "frage": "Die Entscheidung, worauf ein authentifizierter Nutzer zugreifen darf.", "correct": true },
+      { "id": 3, "frage": "Den Login-Vorgang eines Nutzers.", "correct": false },
+      { "id": 4, "frage": "Die Identifikation eines Nutzers per Cookie.", "correct": false }
+    ]
+  },
+  {
+    "id": 16,
+    "frage": "Welche Aussage beschreibt korrekt die Aufgabe eines Services im Request-Flow?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Der Service baut HTTP-Responses mit Statuscodes", "correct": false },
+      { "id": 2, "frage": "Der Service enthält fachliche Logik und kennt kein HTTP", "correct": true },
+      { "id": 3, "frage": "Der Service definiert URL-Pfade und HTTP-Methoden", "correct": false },
+      { "id": 4, "frage": "Der Service liest HTTP-Parameter aus req.params", "correct": false }
+    ]
+  },
+  {
+    "id": 17,
+    "frage": "Welche Aufgabe gehört zum Controller?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Definieren von URL-Pfaden und Routing-Kontexten", "correct": false },
+      { "id": 2, "frage": "Übersetzen von HTTP-Anfragen in Service-Aufrufe", "correct": true },
+      { "id": 3, "frage": "Persistieren von Daten in einer Datenbank", "correct": false },
+      { "id": 4, "frage": "Halten des fachlichen Zustands der Anwendung", "correct": false }
+    ]
+  },
+  {
+    "id": 18,
+    "frage": "Welche Aussage über Router ist korrekt?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Router greifen direkt auf Services zu und überspringen Controller", "correct": false },
+      { "id": 2, "frage": "Router bauen HTTP-Responses mit res.json", "correct": false },
+      { "id": 3, "frage": "Router enthalten Geschäftslogik zur Verarbeitung von Anfragen", "correct": false },
+      { "id": 4, "frage": "Router ordnen HTTP-Methoden und Pfade Controllern zu", "correct": true }
+    ]
+  },
+  {
+    "id": 19,
+    "frage": "Welche Aussage zu Ressourcen in REST APIs ist korrekt?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Ressourcen werden ausschließlich über GET manipuliert", "correct": false },
+      { "id": 2, "frage": "Ressourcen müssen immer zustandsbehaftet sein", "correct": false },
+      { "id": 3, "frage": "Ressourcen sind verbbasiert, z. B. /getUser", "correct": false },
+      { "id": 4, "frage": "Ressourcen haben eine eindeutige Identität, z. B. /users/42", "correct": true }
+    ]
+  },
+  {
+    "id": 20,
+    "frage": "Welche Aussage fasst die Trennung von Service und Controller korrekt zusammen?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Der Controller kennt HTTP, der Service kennt die Fachlogik", "correct": true },
+      { "id": 2, "frage": "Der Controller kennt die Fachdomäne, der Service kennt HTTP", "correct": false },
+      { "id": 3, "frage": "Der Service entscheidet über HTTP-Statuscodes und Responses", "correct": false },
+      { "id": 4, "frage": "Controller und Service haben identische Verantwortlichkeiten", "correct": false }
+    ]
+  },
+  {
+    "id": 21,
+    "frage": "Was ist Hauptgrund um Fehlerbehandlung im Server umzusetzen?",
+    "thema": "Gestione degli errori in Express",
+    "antworten": [
+      { "id": 1, "frage": "Fehlerbehandlung verbessert die Performance der API", "correct": false },
+      { "id": 2, "frage": "Fehlerbehandlung verhindert, dass der Server bei einzelnen Fehlern abstürzt", "correct": true },
+      { "id": 3, "frage": "Fehlerbehandlung ersetzt Logging vollständig", "correct": false },
+      { "id": 4, "frage": "Fehler sollen komplett im Frontend behandelt werden", "correct": false }
+    ]
+  },
+  {
+    "id": 22,
+    "frage": "Was passiert, wenn in einem synchronen Kontext ein Fehler geworfen wird?",
+    "thema": "Gestione degli errori in Express",
+    "antworten": [
+      { "id": 1, "frage": "Express ignoriert den Fehler", "correct": false },
+      { "id": 2, "frage": "Der Fehler wird automatisch im Browser angezeigt", "correct": false },
+      { "id": 3, "frage": "Der Server beendet sich immer sofort", "correct": false },
+      { "id": 4, "frage": "Express leitet den Fehler automatisch an den Error-Handler weiter", "correct": true }
+    ]
+  },
+  {
+    "id": 23,
+    "frage": "Wie werden in Express Fehler in asynchronen Funktionen behandelt?",
+    "thema": "Gestione degli errori in Express",
+    "antworten": [
+      { "id": 1, "frage": "Fehler erneut werfen", "correct": false },
+      { "id": 2, "frage": "Fehler direkt mit res.send zurückgegeben", "correct": false },
+      { "id": 3, "frage": "Fehler mit try/catch fangen und mit next(err) weitergegeben", "correct": true },
+      { "id": 4, "frage": "Fehler ignorieren", "correct": false }
+    ]
+  },
+  {
+    "id": 24,
+    "frage": "Welche Aufgabe hat die Error Middleware?",
+    "thema": "Gestione degli errori in Express",
+    "antworten": [
+      { "id": 1, "frage": "Sie ersetzt Controller-Logik vollständig", "correct": false },
+      { "id": 2, "frage": "Sie speichert Fehler dauerhaft in einer Datenbank", "correct": false },
+      { "id": 3, "frage": "Sie erstellt automatisch neue Fehlerobjekte", "correct": false },
+      { "id": 4, "frage": "Sie verarbeitet Fehler zentral und informiert Nutzer oder Logs", "correct": true }
+    ]
+  },
+  {
+    "id": 25,
+    "frage": "Wie werden Domain Errors typischerweise umgesetzt?",
+    "thema": "Gestione degli errori in Express",
+    "antworten": [
+      { "id": 1, "frage": "Durch gut formulierte Fehlermeldungen im Error Objekt", "correct": false },
+      { "id": 2, "frage": "Durch eigene Klassen, die von Error erben", "correct": true },
+      { "id": 3, "frage": "Durch globale Variablen für Fehlermeldungen", "correct": false },
+      { "id": 4, "frage": "Durch HTTP-Statuscodes ohne Fehlertypen", "correct": false }
+    ]
+  },
+  {
+    "id": 26,
+    "frage": "Woraus besteht ein registrierter Endpunkt in Express?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Aus Router und Service", "correct": false },
+      { "id": 2, "frage": "Aus Middleware und Service", "correct": false },
+      { "id": 3, "frage": "Aus Datenbank und Controller", "correct": false },
+      { "id": 4, "frage": "Aus Pfad und Handler", "correct": true }
+    ]
+  },
+  {
+    "id": 27,
+    "frage": "Welche Methode setzt in Express den HTTP-Statuscode einer Antwort?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": ".send()", "correct": false },
+      { "id": 2, "frage": ".status()", "correct": true },
+      { "id": 3, "frage": ".json()", "correct": false },
+      { "id": 4, "frage": ".code()", "correct": false }
+    ]
+  },
+  {
+    "id": 28,
+    "frage": "Was ist das Ziel von Authentifizierung im Backend?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Datenbankabfragen reduzieren", "correct": false },
+      { "id": 2, "frage": "Benutzeroberflächen anpassen", "correct": false },
+      { "id": 3, "frage": "Daten schneller ausliefern", "correct": false },
+      { "id": 4, "frage": "Prüfen, welcher Nutzer eine Anfrage stellt", "correct": true }
+    ]
+  },
+  {
+    "id": 29,
+    "frage": "Welche Aufgabe hat der Service im Request-Flow?",
+    "thema": "Fondamenti di backend, HTTP, REST ed Express",
+    "antworten": [
+      { "id": 1, "frage": "Fachliche Logik ohne HTTP-Abhängigkeit ausführen", "correct": true },
+      { "id": 2, "frage": "HTTP-Responses erzeugen", "correct": false },
+      { "id": 3, "frage": "Requests an Middleware weiterleiten", "correct": false },
+      { "id": 4, "frage": "URL-Pfade definieren", "correct": false }
+    ]
+  },
+  {
+    "id": 30,
+    "frage": "Wie sollen asynchrone Fehler korrekt behandelt werden?",
+    "thema": "Gestione degli errori in Express",
+    "antworten": [
+      { "id": 1, "frage": "Fehler mit res.send zurückgeben", "correct": false },
+      { "id": 2, "frage": "Server neu starten", "correct": false },
+      { "id": 3, "frage": "Fehler ignorieren und leere Antwort senden", "correct": false },
+      { "id": 4, "frage": "Fehler mit try/catch abfangen und mit next(err) weitergeben", "correct": true }
+    ]
+  },
+  {
+    "id": 31,
+    "frage": "Welche Aufgabe gehört zu den Kernaufgaben eines Datenbankmanagementsystems (DBMS)?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Ausführung von HTTP-Requests", "correct": false },
+      { "id": 2, "frage": "Darstellung von Benutzeroberflächen", "correct": false },
+      { "id": 3, "frage": "Serialisierung von JSON-Daten", "correct": false },
+      { "id": 4, "frage": "Persistente Speicherung von Daten über die Programmlaufzeit hinaus", "correct": true }
+    ]
+  },
+  {
+    "id": 32,
+    "frage": "Welche Eigenschaft ist typisch für relationale Datenbanken?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Daten werden ausschließlich als Dokumente gespeichert", "correct": false },
+      { "id": 2, "frage": "Daten liegen in Tabellen mit festem Schema vor", "correct": true },
+      { "id": 3, "frage": "Beziehungen zwischen Daten sind nicht möglich", "correct": false },
+      { "id": 4, "frage": "Schema wird dynamisch zur Laufzeit erzeugt", "correct": false }
+    ]
+  },
+  {
+    "id": 33,
+    "frage": "Was bedeutet „Atomicity“ im ACID-Modell?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Daten werden verschlüsselt gespeichert", "correct": false },
+      { "id": 2, "frage": "Daten bleiben auch nach einem Systemabsturz erhalten", "correct": false },
+      { "id": 3, "frage": "Eine Transaktion wird komplett ausgeführt oder komplett zurückgerollt", "correct": true },
+      { "id": 4, "frage": "Transaktionen sind voneinander isoliert", "correct": false }
+    ]
+  },
+  {
+    "id": 34,
+    "frage": "Welche Aussage zu Primary Keys und Foreign Keys ist korrekt?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Ein Primary Key darf leer sein", "correct": false },
+      { "id": 2, "frage": "Ein Foreign Key verweist auf den Primary Key einer anderen Tabelle", "correct": true },
+      { "id": 3, "frage": "Primary Keys werden nur für Performance verwendet", "correct": false },
+      { "id": 4, "frage": "Ein Foreign Key muss eindeutig sein", "correct": false }
+    ]
+  },
+  {
+    "id": 35,
+    "frage": "Welche Aufgabe hat die WHERE-Klausel in SQL?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Sie definiert die Struktur einer Tabelle", "correct": false },
+      { "id": 2, "frage": "Sie bestimmt die Sortierung der Ergebnisse", "correct": false },
+      { "id": 3, "frage": "Sie begrenzt die Anzahl der zurückgegebenen Zeilen", "correct": false },
+      { "id": 4, "frage": "Sie filtert Datensätze anhand von Bedingungen", "correct": true }
+    ]
+  },
+  {
+    "id": 36,
+    "frage": "Was ist der zentrale Vorteil von Docker gegenüber einer klassischen lokalen Installation?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Docker erhöht automatisch die Performance der Anwendung", "correct": false },
+      { "id": 2, "frage": "Docker ersetzt vollständig virtuelle Maschinen auf dem Server", "correct": false },
+      { "id": 3, "frage": "Docker speichert Daten dauerhaft ohne zusätzliche Konfiguration", "correct": false },
+      { "id": 4, "frage": "Docker ermöglicht identische Laufzeitumgebungen unabhängig vom Betriebssystem", "correct": true }
+    ]
+  },
+  {
+    "id": 37,
+    "frage": "Welche Aussage beschreibt korrekt den Unterschied zwischen Image und Container?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Image und Container sind identisch", "correct": false },
+      { "id": 2, "frage": "Image ist der Bauplan, Container ist die laufende Instanz", "correct": true },
+      { "id": 3, "frage": "Container existiert nur im Docker Hub", "correct": false },
+      { "id": 4, "frage": "Image ist eine laufende Instanz, Container ist der Bauplan", "correct": false }
+    ]
+  },
+  {
+    "id": 38,
+    "frage": "Warum wird Docker Compose gegenüber einzelnen docker run-Befehlen verwendet?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Weil Docker Compose schneller Container startet", "correct": false },
+      { "id": 2, "frage": "Weil Docker Compose nur für Datenbanken geeignet ist", "correct": false },
+      { "id": 3, "frage": "Weil Konfiguration und Abhängigkeiten zentral und lesbar definiert werden", "correct": true },
+      { "id": 4, "frage": "Weil Docker Compose automatisch SQL-Tabellen erzeugt", "correct": false }
+    ]
+  },
+  {
+    "id": 39,
+    "frage": "Wozu dient der Befehl docker compose exec db psql -U admin -d syntax_db?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Er exportiert ein Datenbank-Backup", "correct": false },
+      { "id": 2, "frage": "Er erstellt eine neue PostgreSQL-Datenbank", "correct": false },
+      { "id": 3, "frage": "Er verbindet sich mit der Datenbank innerhalb des laufenden Containers", "correct": true },
+      { "id": 4, "frage": "Er startet einen neuen Postgres-Container", "correct": false }
+    ]
+  },
+  {
+    "id": 40,
+    "frage": "Welcher Befehl zeigt alle Tabellen der aktuell verbundenen Datenbank an?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "SELECT * FROM tables", "correct": false },
+      { "id": 2, "frage": "\\conninfo", "correct": false },
+      { "id": 3, "frage": "\\q", "correct": false },
+      { "id": 4, "frage": "\\dt", "correct": true }
+    ]
+  },
+  {
+    "id": 41,
+    "frage": "Welche Hauptaufgabe erfüllt ein Repository in der Backend-Architektur?",
+    "thema": "Accesso ai dati, repository e connection pool",
+    "antworten": [
+      { "id": 1, "frage": "Es startet und beendet Datenbankserver", "correct": false },
+      { "id": 2, "frage": "Es validiert Benutzereingaben aus dem Controller", "correct": false },
+      { "id": 3, "frage": "Es kapselt Datenzugriffe und stellt einfache Methoden bereit", "correct": true },
+      { "id": 4, "frage": "Es verwaltet HTTP-Routen und Responses", "correct": false }
+    ]
+  },
+  {
+    "id": 42,
+    "frage": "Welches Ziel verfolgt der Einsatz eines Connection Pools bei Datenbankzugriffen?",
+    "thema": "Accesso ai dati, repository e connection pool",
+    "antworten": [
+      { "id": 1, "frage": "Bestehende Verbindungen werden wiederverwendet, um Ressourcen zu sparen", "correct": true },
+      { "id": 2, "frage": "Jede Anfrage erhält eine neue, isolierte Datenbankinstanz", "correct": false },
+      { "id": 3, "frage": "Datenbankabfragen werden vollständig im Speicher ausgeführt", "correct": false },
+      { "id": 4, "frage": "SQL-Queries werden automatisch parallelisiert", "correct": false }
+    ]
+  },
+  {
+    "id": 43,
+    "frage": "Warum wird der PostgreSQL-Connection-Pool als Singleton implementiert?",
+    "thema": "Accesso ai dati, repository e connection pool",
+    "antworten": [
+      { "id": 1, "frage": "Um konkurrierende Schreibzugriffe zu verhindern", "correct": false },
+      { "id": 2, "frage": "Um TypeScript-Typfehler zu vermeiden", "correct": false },
+      { "id": 3, "frage": "Damit jede Feature-Schicht einen eigenen Pool erhält", "correct": false },
+      { "id": 4, "frage": "Damit nur eine Pool-Instanz für die gesamte App existiert", "correct": true }
+    ]
+  },
+  {
+    "id": 44,
+    "frage": "Welche Schicht enthält typischerweise Geschäftsregeln wie Validierungen?",
+    "thema": "Accesso ai dati, repository e connection pool",
+    "antworten": [
+      { "id": 1, "frage": "Datenbank", "correct": false },
+      { "id": 2, "frage": "Repository", "correct": false },
+      { "id": 3, "frage": "Configuration", "correct": false },
+      { "id": 4, "frage": "Service", "correct": true }
+    ]
+  },
+  {
+    "id": 45,
+    "frage": "Warum wird die Datenbank-Konfiguration über eine .env-Datei umgesetzt?",
+    "thema": "Accesso ai dati, repository e connection pool",
+    "antworten": [
+      { "id": 1, "frage": "Um sensible Daten nicht im Code zu speichern", "correct": true },
+      { "id": 2, "frage": "Um TypeScript-Imports zu reduzieren", "correct": false },
+      { "id": 3, "frage": "Um SQL-Statements zu verkürzen", "correct": false },
+      { "id": 4, "frage": "Um den Connection Pool schneller zu initialisieren", "correct": false }
+    ]
+  },
+  {
+    "id": 46,
+    "frage": "Welches Problem löst Docker Compose hauptsächlich?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Es ermöglicht das gleichzeitige Starten und Konfigurieren mehrerer Services", "correct": true },
+      { "id": 2, "frage": "Es kompiliert TypeScript automatisch", "correct": false },
+      { "id": 3, "frage": "Es verwaltet Datenbank-Schemas", "correct": false },
+      { "id": 4, "frage": "Es ersetzt Docker Images vollständig", "correct": false }
+    ]
+  },
+  {
+    "id": 47,
+    "frage": "Warum wird eine gemeinsame .env Datei in Docker Compose verwendet?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Um Ports automatisch freizugeben", "correct": false },
+      { "id": 2, "frage": "Um Volumes zu ersetzen", "correct": false },
+      { "id": 3, "frage": "Um Umgebungsvariablen zwischen mehreren Containern konsistent zu teilen", "correct": true },
+      { "id": 4, "frage": "Um Build-Zeiten zu verkürzen", "correct": false }
+    ]
+  },
+  {
+    "id": 48,
+    "frage": "Welche Aufgabe hat die Dockerfile im Backend-Setup?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Sie beschreibt, wie das Server-Image gebaut und gestartet wird", "correct": true },
+      { "id": 2, "frage": "Sie speichert Umgebungsvariablen", "correct": false },
+      { "id": 3, "frage": "Sie ersetzt docker-compose.yml", "correct": false },
+      { "id": 4, "frage": "Sie definiert HTTP-Routen", "correct": false }
+    ]
+  },
+  {
+    "id": 49,
+    "frage": "Wofür wird depends_on in Docker Compose verwendet?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Um Container automatisch zu stoppen", "correct": false },
+      { "id": 2, "frage": "Um Ports zwischen Containern zu teilen", "correct": false },
+      { "id": 3, "frage": "Um Volumes zu synchronisieren", "correct": false },
+      { "id": 4, "frage": "Um die Startreihenfolge von Services festzulegen", "correct": true }
+    ]
+  },
+  {
+    "id": 50,
+    "frage": "Wann werden SQL-Dateien im db-init Ordner ausgeführt?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Nur beim ersten Start mit leerem Docker Volume", "correct": true },
+      { "id": 2, "frage": "Bei jedem API-Request", "correct": false },
+      { "id": 3, "frage": "Bei jedem Start des Containers", "correct": false },
+      { "id": 4, "frage": "Erst nach manuellem Trigger", "correct": false }
+    ]
+  },
+  {
+    "id": 51,
+    "frage": "Mit welchem Befehl wird der Next.js Development Server gestartet?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "npm run dev", "correct": true },
+      { "id": 2, "frage": "next start", "correct": false },
+      { "id": 3, "frage": "npm start build", "correct": false },
+      { "id": 4, "frage": "node app.js", "correct": false }
+    ]
+  },
+  {
+    "id": 52,
+    "frage": "Welche Datei definiert im App Router standardmäßig die Startseite?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "app/page.tsx", "correct": true },
+      { "id": 2, "frage": "pages/index.tsx", "correct": false },
+      { "id": 3, "frage": "app/index.tsx", "correct": false },
+      { "id": 4, "frage": "app/home.tsx", "correct": false }
+    ]
+  },
+  {
+    "id": 53,
+    "frage": "Wie entsteht eine neue Route im App Router?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Durch Anlegen eines Ordners mit page.tsx im app/-Verzeichnis", "correct": true },
+      { "id": 2, "frage": "Durch Eintrag in einer zentralen Routing-Datei", "correct": false },
+      { "id": 3, "frage": "Durch Import der Route in layout.tsx", "correct": false },
+      { "id": 4, "frage": "Durch Registrierung im next.config.js", "correct": false }
+    ]
+  },
+  {
+    "id": 54,
+    "frage": "Was ist mit Server Actions / Mutations in Next.js möglich?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Formulare und Interaktionen können direkt auf dem Server ausgeführt werden", "correct": true },
+      { "id": 2, "frage": "Server Actions sind nur für API-Routen gedacht", "correct": false },
+      { "id": 3, "frage": "Server Actions ersetzen das Routing-System", "correct": false },
+      { "id": 4, "frage": "Formulare und Interaktionen werden ausschließlich im Browser verarbeitet", "correct": false }
+    ]
+  },
+  {
+    "id": 55,
+    "frage": "Welche Aussage zum Fehler- und Ladehandling im App Router ist korrekt?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Fehler- und Ladezustände können nur global definiert werden", "correct": false },
+      { "id": 2, "frage": "Error Boundaries sind nur für API-Routen verfügbar", "correct": false },
+      { "id": 3, "frage": "Jede Route kann eigene Error Boundaries und Loading States haben", "correct": true },
+      { "id": 4, "frage": "Fehler- und Ladezustände müssen manuell im Code behandelt werden", "correct": false }
+    ]
+  },
+  {
+    "id": 56,
+    "frage": "Welche Aussage über Pages im App Router ist korrekt?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Pages benötigen immer React Hooks", "correct": false },
+      { "id": 2, "frage": "Pages sind standardmäßig Server-Komponenten", "correct": true },
+      { "id": 3, "frage": "Pages können keine asynchronen Funktionen enthalten", "correct": false },
+      { "id": 4, "frage": "Pages werden standardmäßig im Browser gerendert", "correct": false }
+    ]
+  },
+  {
+    "id": 57,
+    "frage": "Welche Fähigkeit haben Server-Komponenten?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Zugriff auf Browser-APIs wie window", "correct": false },
+      { "id": 2, "frage": "Clientseitige Event-Handler wie onClick", "correct": false },
+      { "id": 3, "frage": "Direkter Zugriff auf Datenbank, Dateisystem oder APIs", "correct": true },
+      { "id": 4, "frage": "Nutzung von React Hooks", "correct": false }
+    ]
+  },
+  {
+    "id": 58,
+    "frage": "Woran erkennt man eine Client-Komponente in Next.js?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Sie beginnt mit \"use client\"", "correct": true },
+      { "id": 2, "frage": "Sie verwendet JSX", "correct": false },
+      { "id": 3, "frage": "Sie liegt im components/-Ordner", "correct": false },
+      { "id": 4, "frage": "Sie hat eine .client.tsx Dateiendung", "correct": false }
+    ]
+  },
+  {
+    "id": 59,
+    "frage": "Welche Aussage zu Server Actions ist korrekt?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Sie können keine Formulardaten verarbeiten", "correct": false },
+      { "id": 2, "frage": "Sie werden immer im Browser ausgeführt", "correct": false },
+      { "id": 3, "frage": "Sie müssen in API-Routen definiert werden", "correct": false },
+      { "id": 4, "frage": "Sie sind garantiert serverseitig ausgeführt", "correct": true }
+    ]
+  },
+  {
+    "id": 60,
+    "frage": "Welche Aufgabe erfüllen Layouts im App Router?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Sie ermöglichen Header, Footer oder Navigation zentral zu definieren", "correct": true },
+      { "id": 2, "frage": "Sie ersetzen Pages vollständig", "correct": false },
+      { "id": 3, "frage": "Sie definieren einzelne Seiten", "correct": false },
+      { "id": 4, "frage": "Sie sind nur für Client-Komponenten gedacht", "correct": false }
+    ]
+  },
+  {
+    "id": 61,
+    "frage": "Welches Element sollte für interne Navigation in Next.js verwendet werden?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "<nav>", "correct": false },
+      { "id": 2, "frage": "<Link>", "correct": true },
+      { "id": 3, "frage": "<button>", "correct": false },
+      { "id": 4, "frage": "<a>", "correct": false }
+    ]
+  },
+  {
+    "id": 62,
+    "frage": "Was ist der wichtigste Vorteil von <Link> gegenüber einem normalen <a>-Tag bei interner Navigation?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "<Link> erlaubt nur externe Navigation", "correct": false },
+      { "id": 2, "frage": "<Link> funktioniert nur auf der Startseite", "correct": false },
+      { "id": 3, "frage": "<Link> ermöglicht Navigation ohne vollständigen Seiten-Reload", "correct": true },
+      { "id": 4, "frage": "<Link> verhindert JavaScript-Ausführung", "correct": false }
+    ]
+  },
+  {
+    "id": 63,
+    "frage": "Wie entsteht im App Router eine neue Route in Next.js?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Durch das Definieren einer Funktion in next.config.js", "correct": false },
+      { "id": 2, "frage": "Durch das Anlegen eines Ordners mit einer page.tsx", "correct": true },
+      { "id": 3, "frage": "Durch Einträge in einer Routing-Konfigurationsdatei", "correct": false },
+      { "id": 4, "frage": "Durch das Verwenden von <Link>", "correct": false }
+    ]
+  },
+  {
+    "id": 64,
+    "frage": "Welche Ordnerstruktur erzeugt eine dynamische Route wie /blog/my-post?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "app/[blog]/[slug].tsx", "correct": false },
+      { "id": 2, "frage": "app/blog/my-post/page.tsx", "correct": false },
+      { "id": 3, "frage": "app/blog/:slug/page.tsx", "correct": false },
+      { "id": 4, "frage": "app/blog/[slug]/page.tsx", "correct": true }
+    ]
+  },
+  {
+    "id": 65,
+    "frage": "Welches Konzept wird genutzt, um festzustellen, welche Seite aktuell aktiv ist?",
+    "thema": "Next.js: App Router, pagine, componenti e navigazione",
+    "antworten": [
+      { "id": 1, "frage": "Der aktuelle Pfad der URL", "correct": true },
+      { "id": 2, "frage": "Der Dateiname der Seite", "correct": false },
+      { "id": 3, "frage": "Der Seiten-Titel", "correct": false },
+      { "id": 4, "frage": "Die Anzahl der Links in der Navigation", "correct": false }
+    ]
+  },
+  {
+    "id": 66,
+    "frage": "Wofür werden Loading Boundaries in Next.js verwendet?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Um API-Routen zu ersetzen", "correct": false },
+      { "id": 2, "frage": "Um Navigation zu blockieren", "correct": false },
+      { "id": 3, "frage": "Um Fehler im Code abzufangen", "correct": false },
+      { "id": 4, "frage": "Um während asynchroner Vorgänge eine Lade-UI anzuzeigen", "correct": true }
+    ]
+  },
+  {
+    "id": 67,
+    "frage": "Wann wird eine loading.tsx Datei automatisch von Next.js verwendet?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Wenn eine Seite clientseitig gerendert wird", "correct": false },
+      { "id": 2, "frage": "Wenn eine Route asynchronen Code enthält", "correct": true },
+      { "id": 3, "frage": "Wenn ein Formular abgeschickt wird", "correct": false },
+      { "id": 4, "frage": "Wenn ein Fehler in einer Route auftritt", "correct": false }
+    ]
+  },
+  {
+    "id": 68,
+    "frage": "Was passiert, wenn in einer Server Component ein Fehler auftritt und eine error.tsx existiert?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Der Fehler wird ignoriert", "correct": false },
+      { "id": 2, "frage": "Die Seite lädt unendlich weiter", "correct": false },
+      { "id": 3, "frage": "Die gesamte Anwendung stürzt ab", "correct": false },
+      { "id": 4, "frage": "Die Error-Komponente wird für den betroffenen Routenbereich angezeigt", "correct": true }
+    ]
+  },
+  {
+    "id": 69,
+    "frage": "Auf welchen Bereich wirken Loading- und Error-Boundaries?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Auf den jeweiligen Routen- oder Segmentbereich", "correct": true },
+      { "id": 2, "frage": "Immer auf die gesamte Anwendung", "correct": false },
+      { "id": 3, "frage": "Nur auf API-Routen", "correct": false },
+      { "id": 4, "frage": "Nur auf einzelne Komponenten", "correct": false }
+    ]
+  },
+  {
+    "id": 70,
+    "frage": "Welche Aussage beschreibt das Zusammenspiel von Loading- und Error-Boundaries korrekt?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Loading-Boundaries werden nur bei Fehlern angezeigt", "correct": false },
+      { "id": 2, "frage": "Beide werden gleichzeitig immer angezeigt", "correct": false },
+      { "id": 3, "frage": "Loading-Boundaries greifen bei Verzögerung, Error-Boundaries bei Fehlern", "correct": true },
+      { "id": 4, "frage": "Error-Boundaries ersetzen Loading-Boundaries", "correct": false }
+    ]
+  },
+  {
+    "id": 71,
+    "frage": "Welche Datei ist bei Prisma die zentrale Stelle zur Definition von Datenmodellen?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "package.json", "correct": false },
+      { "id": 2, "frage": "prisma.client.ts", "correct": false },
+      { "id": 3, "frage": ".env.local", "correct": false },
+      { "id": 4, "frage": "schema.prisma", "correct": true }
+    ]
+  },
+  {
+    "id": 72,
+    "frage": "Was bewirkt der Befehl prisma migrate dev?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Er erstellt und wendet Datenbankmigrationen basierend auf dem Schema an", "correct": true },
+      { "id": 2, "frage": "Er generiert React-Komponenten aus dem Prisma-Schema", "correct": false },
+      { "id": 3, "frage": "Er löscht die bestehende Datenbank", "correct": false },
+      { "id": 4, "frage": "Er startet den Development-Server von Next.js", "correct": false }
+    ]
+  },
+  {
+    "id": 73,
+    "frage": "Warum wird der Prisma Client typischerweise serverseitig verwendet?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Weil er nur mit CSS funktioniert", "correct": false },
+      { "id": 2, "frage": "Weil Formulare clientseitig nicht unterstützt werden", "correct": false },
+      { "id": 3, "frage": "Weil er nur in Client Components erlaubt ist", "correct": false },
+      { "id": 4, "frage": "Weil Datenbankzugriffe nicht im Browser stattfinden sollen", "correct": true }
+    ]
+  },
+  {
+    "id": 74,
+    "frage": "Welche Aufgabe haben Server Actions in einer Next.js-Anwendung?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Sie ersetzen den Prisma Client", "correct": false },
+      { "id": 2, "frage": "Sie führen serverseitige Logik aus, z. B. Datenbankoperationen", "correct": true },
+      { "id": 3, "frage": "Sie definieren neue Routen", "correct": false },
+      { "id": 4, "frage": "Sie sind nur für das Styling zuständig", "correct": false }
+    ]
+  },
+  {
+    "id": 75,
+    "frage": "Welche Aufgabe hat eine Migration im Prisma-Workflow?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Sie erstellt automatisch Server Actions", "correct": false },
+      { "id": 2, "frage": "Sie rendert Daten aus der Datenbank im UI", "correct": false },
+      { "id": 3, "frage": "Sie synchronisiert das Prisma Schema mit der Datenbankstruktur", "correct": true },
+      { "id": 4, "frage": "Sie ersetzt den Prisma Client", "correct": false }
+    ]
+  },
+  {
+    "id": 76,
+    "frage": "Welcher Befehl wendet Migrationen auf die Datenbank an?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "npx prisma build", "correct": false },
+      { "id": 2, "frage": "npx prisma start", "correct": false },
+      { "id": 3, "frage": "npx prisma deploy", "correct": false },
+      { "id": 4, "frage": "npx prisma migrate dev", "correct": true }
+    ]
+  },
+  {
+    "id": 77,
+    "frage": "Wodurch unterscheidet sich ein serverless DBMS wie Neon typischerweise von einem dauerhaft laufenden Datenbankserver?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Die Datenbank läuft ausschließlich lokal auf dem Entwicklungsrechner", "correct": false },
+      { "id": 2, "frage": "Es gibt keinen SQL-Support, nur NoSQL-Zugriffe", "correct": false },
+      { "id": 3, "frage": "Die Rechenressourcen können bedarfsgerecht skalieren und bei Inaktivität pausieren, während die Daten dauerhaft gespeichert bleiben", "correct": true },
+      { "id": 4, "frage": "Migrationen sind bei Serverless DBMS grundsätzlich nicht möglich", "correct": false }
+    ]
+  },
+  {
+    "id": 78,
+    "frage": "Welche Eigenschaft gilt typischerweise als Vorteil eines serverless DBMS?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Vendor Lock-in", "correct": false },
+      { "id": 2, "frage": "Auto-Scaling", "correct": true },
+      { "id": 3, "frage": "Weniger Kontrolle über Ausführung und Performance", "correct": false },
+      { "id": 4, "frage": "Leistungsschwankungen durch Cold Starts", "correct": false }
+    ]
+  },
+  {
+    "id": 79,
+    "frage": "Warum wird in der prisma.config.ts für den CLI-Zugriff die Variable DIRECT_URL statt DATABASE_URL verwendet?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "DATABASE_URL funktioniert ausschließlich im Browser", "correct": false },
+      { "id": 2, "frage": "Neon stellt zwei getrennte Connection Strings bereit – CLI- und App-Zugriff werden darüber unterschieden", "correct": true },
+      { "id": 3, "frage": "DIRECT_URL wird nur in der Preview-Umgebung benötigt", "correct": false },
+      { "id": 4, "frage": "DIRECT_URL ist nur ein Alias und identisch mit DATABASE_URL", "correct": false }
+    ]
+  },
+  {
+    "id": 80,
+    "frage": "Welcher Build-Befehl generiert den Prisma Client, wendet ausstehende Production-Migrationen an und erstellt anschließend den Next.js-Build?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "npx prisma migrate reset && next start", "correct": false },
+      { "id": 2, "frage": "npx prisma generate && npx prisma migrate deploy && next build", "correct": true },
+      { "id": 3, "frage": "npm run dev", "correct": false },
+      { "id": 4, "frage": "next build && npx prisma studio", "correct": false }
+    ]
+  },
+  {
+    "id": 81,
+    "frage": "Warum werden Branches in Neon verwendet?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Um SQL-Abfragen automatisch zu optimieren", "correct": false },
+      { "id": 2, "frage": "Um isolierte Datenbankumgebungen für Tests oder Features zu erstellen", "correct": true },
+      { "id": 3, "frage": "Um mehrere Datenbanken auf verschiedenen Servern zu installieren", "correct": false },
+      { "id": 4, "frage": "Um Docker Container zu ersetzen", "correct": false }
+    ]
+  },
+  {
+    "id": 82,
+    "frage": "Worin unterscheiden sich eine produktionsnahe Preview-Umgebung (Prod-like Preview) und eine Preview-Umgebung mit Seed-Daten (Seed Preview)?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Die Prod-like Preview verwendet produktionsnahe Daten, während die Seed Preview mit eigens eingespielten Test- oder Beispieldaten arbeitet", "correct": true },
+      { "id": 2, "frage": "Prod-like Preview ist nur für Migrationen gedacht", "correct": false },
+      { "id": 3, "frage": "Prod-like enthält nur Schema, Seed Preview enthält Daten aus Production", "correct": false },
+      { "id": 4, "frage": "Seed Preview funktioniert nur lokal", "correct": false }
+    ]
+  },
+  {
+    "id": 83,
+    "frage": "Warum wird beim Seeding häufig ein Schutz für die Production-Umgebung eingebaut?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Damit Datenbanken automatisch gelöscht werden", "correct": false },
+      { "id": 2, "frage": "Damit Testdaten nicht mit echten Nutzerdaten vermischt werden", "correct": true },
+      { "id": 3, "frage": "Damit die App schneller startet", "correct": false },
+      { "id": 4, "frage": "Damit Migrationen schneller laufen", "correct": false }
+    ]
+  },
+  {
+    "id": 84,
+    "frage": "Wofür wird der Befehl npx prisma db seed verwendet?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Um eine neue Datenbank zu installieren", "correct": false },
+      { "id": 2, "frage": "Um die Datenbank vollständig zu löschen", "correct": false },
+      { "id": 3, "frage": "Um Migrationen zu erstellen", "correct": false },
+      { "id": 4, "frage": "Um Initialdaten in die Datenbank einzufügen", "correct": true }
+    ]
+  },
+  {
+    "id": 85,
+    "frage": "Warum sollte ein Vercel-Build-Script den Seed-Befehl nur ausführen, wenn VERCEL_ENV den Wert preview hat?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Um Docker Compose zu starten", "correct": false },
+      { "id": 2, "frage": "Um nur in Preview-Deployments Seed-Daten einzuspielen", "correct": true },
+      { "id": 3, "frage": "Um die Anwendung lokal zu bauen", "correct": false },
+      { "id": 4, "frage": "Um die Datenbank zu löschen", "correct": false }
+    ]
+  },
+  {
+    "id": 86,
+    "frage": "Welche Prisma-Methode wird verwendet, um ein einzelnes Event anhand seiner ID zu löschen?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "prisma.event.delete()", "correct": true },
+      { "id": 2, "frage": "prisma.event.deleteMany()", "correct": false },
+      { "id": 3, "frage": "prisma.event.remove()", "correct": false },
+      { "id": 4, "frage": "prisma.event.destroy()", "correct": false }
+    ]
+  },
+  {
+    "id": 87,
+    "frage": "Warum wird nach einer Delete- oder Update-Action revalidatePath(\"/events\") aufgerufen?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Damit die Route neu registriert wird", "correct": false },
+      { "id": 2, "frage": "Damit der Cache der Seite aktualisiert wird", "correct": true },
+      { "id": 3, "frage": "Damit Prisma die Datenbank neu startet", "correct": false },
+      { "id": 4, "frage": "Damit die Migration erneut ausgeführt wird", "correct": false }
+    ]
+  },
+  {
+    "id": 88,
+    "frage": "Welche Prisma-Methode eignet sich, um alle Events auf einmal zu löschen?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "prisma.event.removeAll()", "correct": false },
+      { "id": 2, "frage": "prisma.event.delete()", "correct": false },
+      { "id": 3, "frage": "prisma.event.truncate()", "correct": false },
+      { "id": 4, "frage": "prisma.event.deleteMany()", "correct": true }
+    ]
+  },
+  {
+    "id": 89,
+    "frage": "Was ist das Hauptziel des Refactorings „Actions vs. Services“?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Client- und Server-Code zu vermischen", "correct": false },
+      { "id": 2, "frage": "Prisma vollständig zu ersetzen", "correct": false },
+      { "id": 3, "frage": "Styling und Layout voneinander zu trennen", "correct": false },
+      { "id": 4, "frage": "Next.js-spezifische Logik von Business-/Datenlogik zu trennen", "correct": true }
+    ]
+  },
+  {
+    "id": 90,
+    "frage": "Wofür wird Prisma Seeding hauptsächlich verwendet?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Um Server Actions zu generieren", "correct": false },
+      { "id": 2, "frage": "Um Migrationen zu ersetzen", "correct": false },
+      { "id": 3, "frage": "Um Prisma Studio zu starten", "correct": false },
+      { "id": 4, "frage": "Um automatisch Test- oder Beispieldaten in die Datenbank einzufügen", "correct": true }
+    ]
+  },
+  {
+    "id": 91,
+    "frage": "Warum wird im Dockerfile.dev gezielt node:24-alpine als Basisimage gewählt?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Alpine-Images unterstützen kein Hot-Reload", "correct": false },
+      { "id": 2, "frage": "Alpine-Images enthalten bereits Postgres vorinstalliert", "correct": false },
+      { "id": 3, "frage": "Eine feste Node.js-Version sorgt für deterministisches Verhalten", "correct": true },
+      { "id": 4, "frage": "Die Versionsnummer ist irrelevant, solange ein Node-Image verwendet wird", "correct": false }
+    ]
+  },
+  {
+    "id": 92,
+    "frage": "Wozu wird in der docker-compose.yml der Eintrag - /app/node_modules als eigenes Volume angegeben?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Um Hot-Reload für node_modules zu aktivieren", "correct": false },
+      { "id": 2, "frage": "Um node_modules aus dem Container zu löschen", "correct": false },
+      { "id": 3, "frage": "Um zu verhindern, dass das gemountete lokale Verzeichnis die im Container installierten node_modules überschreibt", "correct": true },
+      { "id": 4, "frage": "Um node_modules dauerhaft auf dem Host-System zu speichern", "correct": false }
+    ]
+  },
+  {
+    "id": 93,
+    "frage": "Wie sind Server Actions und Services in Next.js typischerweise aufgeteilt?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Nur Services dürfen revalidatePath aufrufen", "correct": false },
+      { "id": 2, "frage": "Services dürfen nur lesend auf Daten zugreifen, Actions nur schreibend", "correct": false },
+      { "id": 3, "frage": "Actions und Services sind zwei austauschbare Namen für dasselbe Next.js-Konzept", "correct": false },
+      { "id": 4, "frage": "Actions empfangen Parameter (z. B. FormData) und rufen Services auf, während Services die eigentliche Business-/Datenlogik und den Prisma-Zugriff übernehmen", "correct": true }
+    ]
+  },
+  {
+    "id": 94,
+    "frage": "Im Prisma-Schema wird bei der Post-Author-Relation onDelete: Cascade gesetzt. Was passiert dadurch beim Löschen eines Autors?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Der Autor kann nur gelöscht werden, wenn er keine Posts besitzt", "correct": false },
+      { "id": 2, "frage": "Das Löschen des Autors wird von Prisma grundsätzlich blockiert", "correct": false },
+      { "id": 3, "frage": "Alle Posts des Autors werden automatisch mit gelöscht", "correct": true },
+      { "id": 4, "frage": "Alle Posts des Autors bleiben erhalten, aber authorId wird auf null gesetzt", "correct": false }
+    ]
+  },
+  {
+    "id": 95,
+    "frage": "Warum wird in der package.json unter \"prisma\": { \"seed\": ... } ein Seed-Befehl definiert?",
+    "thema": "Prisma, Neon, migrazioni e seeding",
+    "antworten": [
+      { "id": 1, "frage": "Weil ohne diesen Eintrag keine Migrationen möglich sind", "correct": false },
+      { "id": 2, "frage": "Weil Prisma sonst automatisch die schema.prisma als Seed-Datei verwendet", "correct": false },
+      { "id": 3, "frage": "Weil Prisma von sich aus nicht weiß, welche Datei beim Ausführen von prisma db seed aufgerufen werden soll", "correct": true },
+      { "id": 4, "frage": "Weil der Eintrag nur für Production-Deployments benötigt wird", "correct": false }
+    ]
+  },
+  {
+    "id": 96,
+    "frage": "Welche Aufgabe hat ein Database Management System (DBMS)?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Es dient ausschließlich zur Benutzer-Authentifizierung.", "correct": false },
+      { "id": 2, "frage": "Es ersetzt den Webserver vollständig.", "correct": false },
+      { "id": 3, "frage": "Es sorgt für dauerhafte Speicherung und strukturierte Verwaltung von Daten.", "correct": true },
+      { "id": 4, "frage": "Es rendert Benutzeroberflächen.", "correct": false }
+    ]
+  },
+  {
+    "id": 97,
+    "frage": "Was ist ein zentrales Merkmal relationaler Datenbanken?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Sie verzichten auf feste Schemata.", "correct": false },
+      { "id": 2, "frage": "Sie nutzen zweidimensionale Tabellen zur Strukturierung von Daten.", "correct": true },
+      { "id": 3, "frage": "Sie speichern Daten ausschließlich als Dateien.", "correct": false },
+      { "id": 4, "frage": "Sie funktionieren ohne Abfragesprache.", "correct": false }
+    ]
+  },
+  {
+    "id": 98,
+    "frage": "Was beschreibt die ACID-Eigenschaft „Atomicity“?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Daten werden automatisch normalisiert.", "correct": false },
+      { "id": 2, "frage": "Eine Transaktion wird vollständig ausgeführt oder vollständig rückgängig gemacht.", "correct": true },
+      { "id": 3, "frage": "Daten bleiben dauerhaft gespeichert.", "correct": false },
+      { "id": 4, "frage": "Transaktionen laufen parallel.", "correct": false }
+    ]
+  },
+  {
+    "id": 99,
+    "frage": "Wofür wird ein JOIN in SQL verwendet?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "Zum Erstellen von Indizes.", "correct": false },
+      { "id": 2, "frage": "Zum Sortieren von Ergebnissen.", "correct": false },
+      { "id": 3, "frage": "Zum Kombinieren von Daten aus mehreren Tabellen.", "correct": true },
+      { "id": 4, "frage": "Zum Löschen von Tabellen.", "correct": false }
+    ]
+  },
+  {
+    "id": 100,
+    "frage": "Welche SQL-Anweisung dient zum Filtern von Datensätzen?",
+    "thema": "Database relazionali e SQL",
+    "antworten": [
+      { "id": 1, "frage": "SELECT", "correct": false },
+      { "id": 2, "frage": "ORDER BY", "correct": false },
+      { "id": 3, "frage": "WHERE", "correct": true },
+      { "id": 4, "frage": "FROM", "correct": false }
+    ]
+  },
+  {
+    "id": 101,
+    "frage": "Was ist ein zentriler Vorteil von Docker?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Docker ersetzt vollständig Betriebssysteme", "correct": false },
+      { "id": 2, "frage": "Docker sorgt für identische Umgebungen auf allen Systemen", "correct": true },
+      { "id": 3, "frage": "Docker funktioniert nur auf Linux", "correct": false },
+      { "id": 4, "frage": "Docker macht Datenbanken überflüssig", "correct": false }
+    ]
+  },
+  {
+    "id": 102,
+    "frage": "Was ist der Unterschied zwischen einem Image und einem Container?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Image und Container sind identisch", "correct": false },
+      { "id": 2, "frage": "Container enthält mehrere Images", "correct": false },
+      { "id": 3, "frage": "Image = Bauplan, Container = laufende Instanz", "correct": true },
+      { "id": 4, "frage": "Image = laufende Instanz, Container = Bauplan", "correct": false }
+    ]
+  },
+  {
+    "id": 103,
+    "frage": "Warum wird Docker Compose verwendet?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Um Images zu programmieren", "correct": false },
+      { "id": 2, "frage": "Um Ports automatisch zu verschlüsseln", "correct": false },
+      { "id": 3, "frage": "Um SQL-Abfragen zu schreiben", "correct": false },
+      { "id": 4, "frage": "Um mehrere Container zentral zu konfigurieren und zu starten", "correct": true }
+    ]
+  },
+  {
+    "id": 104,
+    "frage": "Was bewirkt das Flag -p 5432:5432 beim Starten eines Postgres-Containers?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Es erstellt eine neue Datenbank", "correct": false },
+      { "id": 2, "frage": "Es setzt das Passwort des Users", "correct": false },
+      { "id": 3, "frage": "Es speichert Daten persistent", "correct": false },
+      { "id": 4, "frage": "Es verbindet Container-Port mit Host-Port", "correct": true }
+    ]
+  },
+  {
+    "id": 105,
+    "frage": "Wofür wird der Befehl docker compose exec db psql -U admin -d syntax_db verwendet?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Um den Container dauerhaft zu löschen", "correct": false },
+      { "id": 2, "frage": "Um das Image postgres:15 zu bauen", "correct": false },
+      { "id": 3, "frage": "Um einen neuen Container zu starten", "correct": false },
+      { "id": 4, "frage": "Um sich mit der Postgres-Datenbank im Container zu verbinden", "correct": true }
+    ]
+  },
+  {
+    "id": 106,
+    "frage": "Welche Eigenschaft beschreibt eine gute kryptographische Hashfunktion?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Sie speichert automatisch die ursprünglichen Daten", "correct": false },
+      { "id": 2, "frage": "Sie kann aus dem Hashwert wieder die ursprüngliche Eingabe berechnen", "correct": false },
+      { "id": 3, "frage": "Sie komprimiert Daten verlustfrei", "correct": false },
+      { "id": 4, "frage": "Sie erzeugt für jede Eingabe eine feste Ausgabelänge", "correct": true }
+    ]
+  },
+  {
+    "id": 107,
+    "frage": "Was beschreibt den sogenannten Lawineneffekt bei Hashfunktionen?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Der Hashwert wächst mit der Eingabelänge", "correct": false },
+      { "id": 2, "frage": "Hashwerte können wieder in Klartext umgewandelt werden", "correct": false },
+      { "id": 3, "frage": "Kleine Änderungen an der Eingabe erzeugen stark unterschiedliche Hashwerte", "correct": true },
+      { "id": 4, "frage": "Mehrere gleiche Eingaben erzeugen unterschiedliche Hashwerte", "correct": false }
+    ]
+  },
+  {
+    "id": 108,
+    "frage": "Warum ist einfaches Hashing für Passwörter problematisch?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Hashing kann nicht mit Strings arbeiten", "correct": false },
+      { "id": 2, "frage": "Hashfunktionen benötigen zu viel Speicher", "correct": false },
+      { "id": 3, "frage": "Moderne GPUs können sehr schnell viele Hashes berechnen", "correct": true },
+      { "id": 4, "frage": "Hashing funktioniert nur mit Datenbanken", "correct": false }
+    ]
+  },
+  {
+    "id": 109,
+    "frage": "Welchen Zweck erfüllt ein Salt beim Passwort-Hashing?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Es verhindert, dass gleiche Passwörter denselben Hash erzeugen", "correct": true },
+      { "id": 2, "frage": "Es verschlüsselt den Hashwert", "correct": false },
+      { "id": 3, "frage": "Es komprimiert das Passwort", "correct": false },
+      { "id": 4, "frage": "Es beschleunigt das Berechnen des Hashwertes", "correct": false }
+    ]
+  },
+  {
+    "id": 110,
+    "frage": "Warum gilt Argon2 als moderner Standard für Passwort-Hashing?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Es erzeugt besonders kurze Hashwerte", "correct": false },
+      { "id": 2, "frage": "Es ist langsam und benötigt viel Speicher, wodurch Angriffe erschwert werden", "correct": true },
+      { "id": 3, "frage": "Es kann Hashwerte wieder entschlüsseln", "correct": false },
+      { "id": 4, "frage": "Es ist sehr schnell berechenbar", "correct": false }
+    ]
+  },
+  {
+    "id": 111,
+    "frage": "Warum ist Argon2 besonders geeignet für Passwort-Hashing?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Es ist langsam und speicherintensiv, was Angriffe erschwert", "correct": true },
+      { "id": 2, "frage": "Es ist einfach zu implementieren", "correct": false },
+      { "id": 3, "frage": "Es ist extrem schnell", "correct": false },
+      { "id": 4, "frage": "Es kann Hashes wieder entschlüsseln", "correct": false }
+    ]
+  },
+  {
+    "id": 112,
+    "frage": "Was ist eine Kollision bei Hashfunktionen?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Der Hash ist kürzer als erwartet", "correct": false },
+      { "id": 2, "frage": "Die Eingabe wird doppelt gehasht", "correct": false },
+      { "id": 3, "frage": "Zwei unterschiedliche Eingaben erzeugen denselben Hashwert", "correct": true },
+      { "id": 4, "frage": "Der Hashwert ändert sich bei jedem Aufruf", "correct": false }
+    ]
+  },
+  {
+    "id": 113,
+    "frage": "Warum sollte man für Passwörter keine schnellen Hashfunktionen wie MD5 oder SHA-256 direkt verwenden?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Ihre hohe Geschwindigkeit macht Brute-Force- und Wörterbuchangriffe leichter", "correct": true },
+      { "id": 2, "frage": "Sie unterstützen keine Sonderzeichen", "correct": false },
+      { "id": 3, "frage": "Sie sind nicht kompatibel mit Datenbanken", "correct": false },
+      { "id": 4, "frage": "Sie erzeugen zu lange Hashwerte", "correct": false }
+    ]
+  },
+  {
+    "id": 114,
+    "frage": "Was bewirkt der \"Work Factor\" (bzw. Cost-Parameter) bei Algorithmen wie bcrypt?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Er verschlüsselt den Salt zusätzlich", "correct": false },
+      { "id": 2, "frage": "Er steuert, wie rechenintensiv das Hashing ist, um Angriffe zu verlangsamen", "correct": true },
+      { "id": 3, "frage": "Er bestimmt die Zeichenkodierung des Hashwerts", "correct": false },
+      { "id": 4, "frage": "Er legt die maximale Passwortlänge fest", "correct": false }
+    ]
+  },
+  {
+    "id": 115,
+    "frage": "Warum ist es unsicher, Passwörter im Klartext oder mit reversibler Verschlüsselung zu speichern statt zu hashen?",
+    "thema": "Autenticazione e sicurezza delle password",
+    "antworten": [
+      { "id": 1, "frage": "Datenbanken unterstützen keine verschlüsselten Felder", "correct": false },
+      { "id": 2, "frage": "Klartext-Passwörter benötigen mehr Speicherplatz", "correct": false },
+      { "id": 3, "frage": "Bei einem Datenleck könnten alle Passwörter direkt ausgelesen bzw. entschlüsselt werden", "correct": true },
+      { "id": 4, "frage": "Reversible Verschlüsselung ist langsamer als Hashing", "correct": false }
+    ]
+  },
+  {
+    "id": 116,
+    "frage": "Wofür wird eine Dockerfile verwendet?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Um SQL Tabellen automatisch zu erstellen", "correct": false },
+      { "id": 2, "frage": "Um Umgebungsvariablen zu definieren", "correct": false },
+      { "id": 3, "frage": "Um mehrere Container gleichzeitig zu starten", "correct": false },
+      { "id": 4, "frage": "Um ein Docker Image für den Backend-Server zu bauen", "correct": true }
+    ]
+  },
+  {
+    "id": 117,
+    "frage": "Warum wird eine gemeinsame .env Datei im Docker-Compose Setup verwendet?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Damit beide Container dieselbe Datenbank nutzen", "correct": false },
+      { "id": 2, "frage": "Damit SQL automatisch generiert wird", "correct": false },
+      { "id": 3, "frage": "Damit Docker Images kleiner werden", "correct": false },
+      { "id": 4, "frage": "Damit Umgebungsvariablen zwischen Backend und Datenbank konsistent geteilt werden", "correct": true }
+    ]
+  },
+  {
+    "id": 118,
+    "frage": "Welche Aufgabe hat der Eintrag depends_on: - db im Compose-File?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Er startet die Datenbank automatisch neu", "correct": false },
+      { "id": 2, "frage": "Er erstellt automatisch eine Datenbank", "correct": false },
+      { "id": 3, "frage": "Er definiert, dass der Backend-Container von der Datenbank abhängt", "correct": true },
+      { "id": 4, "frage": "Er verbindet den Container mit dem Internet", "correct": false }
+    ]
+  },
+  {
+    "id": 119,
+    "frage": "Wann werden SQL Dateien im Ordner db-init ausgeführt?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Nur beim ersten Start mit leerem Docker-Volume", "correct": true },
+      { "id": 2, "frage": "Erst wenn ein API-Request kommt", "correct": false },
+      { "id": 3, "frage": "Immer beim Build des Images", "correct": false },
+      { "id": 4, "frage": "Bei jedem Neustart des Containers", "correct": false }
+    ]
+  },
+  {
+    "id": 120,
+    "frage": "Was bewirkt der Befehl docker compose down -v?",
+    "thema": "Docker, container e Docker Compose",
+    "antworten": [
+      { "id": 1, "frage": "Er erstellt neue Docker Images", "correct": false },
+      { "id": 2, "frage": "Er löscht Container und zugehörige Volumes", "correct": true },
+      { "id": 3, "frage": "Er startet alle Container neu", "correct": false },
+      { "id": 4, "frage": "Er verbindet sich mit der Datenbank", "correct": false }
+    ]
+  },
+  {
+    "id": 121,
+    "frage": "Was beschreibt ein Monorepo im Kontext eines Softwareprojekts?",
+    "thema": "Monorepo e integrazione frontend/backend",
+    "antworten": [
+      { "id": 1, "frage": "Jedes Feature erhält ein eigenes Repository", "correct": false },
+      { "id": 2, "frage": "Mehrere Projekte werden in unterschiedlichen Git-Repositories gespeichert", "correct": false },
+      { "id": 3, "frage": "Frontend und Backend liegen in getrennten Servern", "correct": false },
+      { "id": 4, "frage": "Mehrere Projektteile werden gemeinsam in einem einzigen Repository verwaltet", "correct": true }
+    ]
+  },
+  {
+    "id": 122,
+    "frage": "Welcher Vorteil kann sich daraus ergeben, Frontend und Backend in einem Monorepo gemeinsam zu verwalten?",
+    "thema": "Monorepo e integrazione frontend/backend",
+    "antworten": [
+      { "id": 1, "frage": "Das Repository bleibt immer klein", "correct": false },
+      { "id": 2, "frage": "Versionsabstimmung zwischen Frontend und Backend wird einfacher", "correct": true },
+      { "id": 3, "frage": "Backend und Frontend müssen nicht mehr versioniert werden", "correct": false },
+      { "id": 4, "frage": "Deployment wird vollständig automatisiert", "correct": false }
+    ]
+  },
+  {
+    "id": 123,
+    "frage": "Welche typische Struktur hat das Projekt im Monorepo-Beispiel?",
+    "thema": "Monorepo e integrazione frontend/backend",
+    "antworten": [
+      { "id": 1, "frage": "client/, server/, config/", "correct": false },
+      { "id": 2, "frage": "api/, services/, database/", "correct": false },
+      { "id": 3, "frage": "frontend/, backend/, docker-compose.yml, .env", "correct": true },
+      { "id": 4, "frage": "src/, dist/, build/", "correct": false }
+    ]
+  },
+  {
+    "id": 124,
+    "frage": "Warum wird im Vite-Frontend ein API-Proxy konfiguriert?",
+    "thema": "Monorepo e integrazione frontend/backend",
+    "antworten": [
+      { "id": 1, "frage": "Damit Docker Container automatisch neu starten", "correct": false },
+      { "id": 2, "frage": "Damit das Backend automatisch kompiliert wird", "correct": false },
+      { "id": 3, "frage": "Damit der Browser denkt, Frontend und Backend kommen von derselben Origin", "correct": true },
+      { "id": 4, "frage": "Damit SQL-Abfragen schneller ausgeführt werden", "correct": false }
+    ]
+  },
+  {
+    "id": 125,
+    "frage": "Welche Aufgabe erfüllt docker compose up --build?",
+    "thema": "Monorepo e integrazione frontend/backend",
+    "antworten": [
+      { "id": 1, "frage": "Es baut Images neu und startet anschließend die Services", "correct": true },
+      { "id": 2, "frage": "Es startet nur den Backend-Container", "correct": false },
+      { "id": 3, "frage": "Es löscht alle Container und Volumes", "correct": false },
+      { "id": 4, "frage": "Es verbindet sich mit der Datenbank", "correct": false }
+    ]
+  },
+  {
+    "id": 126,
+    "frage": "Was ist die Hauptaufgabe von Boundaries in Next.js?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Sie kontrollieren das Rendering-Verhalten bei Laden oder Fehlern", "correct": true },
+      { "id": 2, "frage": "Sie ersetzen React-Komponenten", "correct": false },
+      { "id": 3, "frage": "Sie führen Server-Code im Browser aus", "correct": false },
+      { "id": 4, "frage": "Sie speichern Daten in der Datenbank", "correct": false }
+    ]
+  },
+  {
+    "id": 127,
+    "frage": "Wozu dient eine Suspense Boundary?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Sie zeigt eine Lade-UI während asynchrone Inhalte geladen werden", "correct": true },
+      { "id": 2, "frage": "Sie speichert Benutzerzustände", "correct": false },
+      { "id": 3, "frage": "Sie verhindert, dass Fehler im UI auftreten", "correct": false },
+      { "id": 4, "frage": "Sie validiert Formulare", "correct": false }
+    ]
+  },
+  {
+    "id": 128,
+    "frage": "Was passiert, wenn ein Fehler innerhalb einer Error Boundary auftritt?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Der Browser wird neu geladen", "correct": false },
+      { "id": 2, "frage": "Die nächste Error Boundary zeigt eine Fehler-UI an", "correct": true },
+      { "id": 3, "frage": "Die gesamte Anwendung stürzt ab", "correct": false },
+      { "id": 4, "frage": "React ignoriert den Fehler", "correct": false }
+    ]
+  },
+  {
+    "id": 129,
+    "frage": "Welche Besonderheit gilt für Error Boundaries in Next.js?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Sie funktionieren nur in Layout-Dateien", "correct": false },
+      { "id": 2, "frage": "Sie müssen immer Server Components sein", "correct": false },
+      { "id": 3, "frage": "Sie müssen Client Components sein", "correct": true },
+      { "id": 4, "frage": "Sie dürfen keine Props haben", "correct": false }
+    ]
+  },
+  {
+    "id": 130,
+    "frage": "Was passiert, wenn eine error.js Datei in einem Segment platziert wird?",
+    "thema": "Next.js: Loading e Error Boundaries",
+    "antworten": [
+      { "id": 1, "frage": "Sie gilt für die Seite des Segments und alle Untersegmente", "correct": true },
+      { "id": 2, "frage": "Sie ersetzt automatisch die Layout-Datei", "correct": false },
+      { "id": 3, "frage": "Sie gilt nur für eine einzelne Komponente", "correct": false },
+      { "id": 4, "frage": "Sie wird nur im Development Mode verwendet", "correct": false }
+    ]
+  }
+]
